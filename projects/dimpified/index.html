@@ -1,0 +1,1221 @@
+<!DOCTYPE html>
+
+<!--[if IE 8]><html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+  <!--<![endif]-->
+
+  <head>
+    <meta charset="utf-8" />
+    <title>Dimpified - Website Builder & Booking Platform</title>
+    <meta name="author" content="Abdul-Azeez Adeleye" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <meta
+      name="description"
+      content="Dimpified - A comprehensive website builder, booking, and payment platform for service-based businesses. Increase customer acquisition by 62% with customizable templates."
+    />
+
+    <!-- font -->
+    <link rel="stylesheet" href="../../assets/fonts/fonts.css" />
+    <link rel="stylesheet" href="../../assets/fonts/inter/inter.css" />
+    <link rel="stylesheet" href="../../assets/icon/icomoon/style.css" />
+    <!-- css -->
+    <link rel="stylesheet" href="../../assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../../assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../../assets/css/animate.css" />
+
+    <link rel="stylesheet" type="text/css" href="../../assets/css/styles.css" />
+
+    <!-- Favicon and Touch Icons  -->
+    <link rel="shortcut icon" href="../../assets/images/logo/favicon.ico" />
+    <link
+      rel="apple-touch-icon-precomposed"
+      href="../../assets/images/logo/favicon.ico"
+    />
+  </head>
+
+  <body class="counter-scroll">
+    <!-- <canvas class="cursor-trail d-none d-xl-block" id="trail"></canvas> -->
+
+    <!-- Preload -->
+    <div class="preload preload-container" id="preload">
+      <div class="preload-logo">
+        <div class="spinner"></div>
+      </div>
+    </div>
+    <!-- /Preload -->
+
+    <!-- Body Background -->
+    <div class="body-background">
+      <div class="bg-item">
+        <a href="../../index.html#home">
+          <img
+            loading="lazy"
+            width="1440"
+            height="900"
+            src="../../assets/images/item/cloud-bg.png"
+            alt="Cloud Background"
+          />
+        </a>
+      </div>
+      <div class="bg-video video-dark">
+        <a href="../../index.html#home">
+          <video class="video" muted="" autoplay="" loop="" playsinline="">
+            <source src="../../assets/images/overlay-2.mp4" type="video/mp4" />
+          </video>
+        </a>
+        <div class="overlay-1"></div>
+      </div>
+    </div>
+    <!-- /Body Background -->
+    <!-- Btn Open Color -->
+    <div class="tf-left-bar pst-v2">
+      <a
+        class="btn-setting-color tf-btn-icon style-2"
+        data-bs-toggle="offcanvas"
+        href="#settingColorMenu"
+        ><i class="icon-gear"></i
+      ></a>
+    </div>
+    <!-- /Btn Open Color -->
+    <!-- Setting Color -->
+    <div class="offcanvas offcanvas-end offcanvas-color" id="settingColorMenu">
+      <div class="offcanvas-content">
+        <div class="canvas-header">
+          <h5 class="letter-space--2">Configuration</h5>
+          <span class="icon-close-popup" data-bs-dismiss="offcanvas">
+            <i class="icon-close"></i>
+          </span>
+        </div>
+        <div class="canvas-body">
+          <h6 class="title">Color</h6>
+          <div class="settings-color list-choose">
+            <button type="button" class="btn-color theme-light choose-item">
+              <span class="color type-body-v1"></span>
+              <span class="text"> Silver Dawn </span>
+            </button>
+            <button type="button" class="btn-color theme-light choose-item">
+              <span class="color type-body-v2"></span>
+              <span class="text"> Lavender Stone </span>
+            </button>
+            <button type="button" class="btn-color theme-light choose-item">
+              <span class="color type-body-v3"></span>
+              <span class="text"> Ocean Brezee </span>
+            </button>
+            <button type="button" class="btn-color theme-dark choose-item">
+              <span class="color type-dark-v1"></span>
+              <span class="text"> Midnight Fade </span>
+            </button>
+            <button type="button" class="btn-color theme-dark choose-item">
+              <span class="color type-dark-v2"></span>
+              <span class="text"> Charcoal Mist </span>
+            </button>
+            <button type="button" class="btn-color theme-dark choose-item">
+              <span class="color type-dark-v3"></span>
+              <span class="text"> Forest Shadow </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Setting Color -->
+
+    <!-- Menu Mobile -->
+    <div class="action-open-mobile d-lg-none">
+      <div class="tf-btn-icon style-2">
+        <div class="btn-mobile-menu">
+          <span></span>
+        </div>
+      </div>
+      <div class="nav-mobile-list">
+        <ul class="nav-mobile-item">
+          <li class="nav-item">
+            <a href="../../index.html#home" class="item-link scroll-link">
+              <i class="icon icon-home"></i>
+              <p class="tool-tip text-caption">Home</p>
+            </a>
+          </li>
+          <li class="br-line"></li>
+          <li class="nav-item">
+            <a href="../../index.html#about" class="item-link scroll-link">
+              <i class="icon icon-user-circle"></i>
+              <p class="tool-tip text-caption">About</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="../../index.html#professional-experience"
+              class="item-link scroll-link"
+            >
+              <i class="icon icon-edu"></i>
+              <p class="tool-tip text-caption">Experience</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="../../index.html#projects" class="item-link scroll-link">
+              <i class="icon icon-high-light"></i>
+              <p class="tool-tip text-caption">Projects</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="../../index.html#blog" class="item-link scroll-link">
+              <i class="icon icon-service"></i>
+              <p class="tool-tip text-caption">Blog</p>
+            </a>
+          </li>
+
+          <li class="br-line"></li>
+          <li class="nav-item">
+            <a href="../../index.html#contact" class="item-link scroll-link">
+              <i class="icon icon-send"></i>
+              <p class="tool-tip text-caption">Contact</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- /Menu Mobile -->
+
+    <!-- Tool Sidebar -->
+    <div class="sidebar-tools pst-v1">
+      <div class="nav-top">
+        <div class="tf-btn-icon toggle-switch-mode">
+          <i class="icon icon-light"></i>
+        </div>
+      </div>
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="../../index.html#home" class="item-link scroll-link">
+            <i class="icon icon-home"></i>
+            <p class="tool-tip text-caption">Home</p>
+          </a>
+        </li>
+        <li class="br-line"></li>
+        <li class="nav-item">
+          <a href="../../index.html#about" class="item-link scroll-link">
+            <i class="icon icon-user-circle"></i>
+            <p class="tool-tip text-caption">About</p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a
+            href="../../index.html#professional-experience"
+            class="item-link scroll-link"
+          >
+            <i class="icon icon-edu"></i>
+            <p class="tool-tip text-caption">Experience</p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="../../index.html#projects" class="item-link scroll-link">
+            <i class="icon icon-high-light"></i>
+            <p class="tool-tip text-caption">Projects</p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="../../index.html#blog" class="item-link scroll-link">
+            <i class="icon icon-service"></i>
+            <p class="tool-tip text-caption">Blog</p>
+          </a>
+        </li>
+
+        <li class="br-line"></li>
+        <li class="nav-item">
+          <a href="../../index.html#contact" class="item-link scroll-link">
+            <i class="icon icon-send"></i>
+            <p class="tool-tip text-caption">Contact</p>
+          </a>
+        </li>
+      </ul>
+      <div class="nav-bottom">
+        <a href="#" class="tf-btn-icon go-top">
+          <i class="icon icon-arrow-top"></i>
+        </a>
+      </div>
+    </div>
+    <!-- /Tool Sidebar -->
+    <main id="wrapper">
+      <!-- Time Local -->
+      <div class="tf-header-wrap">
+        <a href="../../index.html" class="logo-site d-lg-none">
+          <img
+            class="image-switch"
+            data-light="../../assets/images/logo/logo.png"
+            data-dark="../../assets/images/logo/logo-2.png"
+            loading="lazy"
+            width="40"
+            height="40"
+            src="../../assets/images/logo/logo.png"
+            alt="Image"
+          />
+        </a>
+        <div class="left">
+          <div class="time-local text-body-3">
+            <p class="date"></p>
+            <p class="clock"></p>
+          </div>
+        </div>
+      </div>
+      <!-- /Time Local -->
+      <!-- Product Sidebar -->
+      <div class="sidebar-user">
+        <div class="wrap">
+          <div class="user-image">
+            <a href="../../index.html">
+              <div class="image">
+                <img
+                  loading="lazy"
+                  width="468"
+                  height="856"
+                  src="../../assets/images/section/dimpified-bg.png"
+                  alt="Dimpified Dashboard"
+                  style="position: relative; display: block"
+                />
+                <!-- Add overlay for dark blur effect on lower half -->
+                <div
+                  style="
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    height: 50%;
+                    background: linear-gradient(
+                      to top,
+                      rgba(0, 0, 0, 0.8),
+                      transparent
+                    );
+                    backdrop-filter: blur(8px);
+                    -webkit-backdrop-filter: blur(8px);
+                    pointer-events: none;
+                    border-radius: inherit;
+                  "
+                ></div>
+              </div>
+            </a>
+          </div>
+          <div class="user-logo d-none d-lg-block">
+            <a href="../../index.html">
+              <img
+                class="image-switch"
+                data-light="../../assets/images/logo/logo.png"
+                data-dark="../../assets/images/logo/logo-2.png"
+                loading="lazy"
+                width="40"
+                height="40"
+                src="../../assets/images/logo/logo.png"
+                alt="Dimpified Logo"
+              />
+            </a>
+          </div>
+
+          <div class="user-info">
+            <p class="avaiable-dot text-body-3 text-white-96 fw-medium">
+              <span class="dot"></span>
+              <span>Case Study</span>
+            </p>
+            <h5 class="greeting letter-space--2 text-white animationtext clip">
+              Dimpified
+            </h5>
+            <p class="introduce text-white-72 letter-space--05 text-body-3">
+              A comprehensive no-code website builder, booking, and payment
+              platform for service-based businesses. Increased customer
+              acquisition by 62% with enhanced UX and customizable templates.
+            </p>
+            <div class="br-line"></div>
+            <div class="action-group">
+              <a
+                href="https://dimpified.com"
+                target="_blank"
+                class="tf-btn-action"
+              >
+                <span class="ic-wrap">
+                  <i class="icon icon-arrow-right-top"></i>
+                </span>
+                <span class="text text-body-3 letter-space--05 fw-medium">
+                  View Live
+                </span>
+                <span class="ic-wrap">
+                  <i class="icon icon-arrow-right-top"></i>
+                </span>
+              </a>
+              <a href="#overview" class="action-down">
+                <i class="icon icon-download"></i>
+                <span class="text-body-3"> Overview </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /Product Sidebar -->
+
+      <div class="main-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7 col-xl-8 ms-auto">
+              <div class="wrap-container">
+                <!-- Overview Section -->
+                <div id="overview" class="section-about flat-spacing">
+                  <div class="sect-tag text-caption fw-medium">
+                    <i class="icon icon-high-light"></i>
+                    Project Overview
+                  </div>
+                  <h4
+                    class="s-title letter-space--2 text-black-72 split-text effect-blur-fade"
+                  >
+                    End-to-End Digital Solution for Service Businesses
+                  </h4>
+                  <p class="s-desc text-black-56 scrolling-effect effectTop">
+                    Dimpified is a comprehensive SaaS platform designed
+                    specifically for service-based businesses like barbershops,
+                    salons, gyms, and spas. It combines website building,
+                    appointment scheduling, payment processing, and customer
+                    management into one seamless ecosystem.
+                    <br /><br />
+                    The platform addresses the common pain points of small
+                    service businesses by providing professional online
+                    presence, automated booking systems, and integrated payment
+                    solutions without requiring technical expertise. Businesses
+                    using Dimpified reported 62% more new customers within 3
+                    months of implementation.
+                  </p>
+
+                  <div class="wg-work work-image">
+                    <img
+                      loading="lazy"
+                      width="700"
+                      height="427"
+                      src="../../assets/images/section/dimpified.png"
+                      alt="Dimpified Platform"
+                    />
+                  </div>
+                </div>
+                <!-- /Overview Section -->
+
+                <!-- Core Features Section -->
+                <div id="features" class="section-service flat-spacing">
+                  <div
+                    class="sect-tag text-caption fw-medium effectFade fadeUp no-div mb-0"
+                  >
+                    <i class="icon icon-service"></i>
+                    Platform Capabilities
+                  </div>
+                  <div class="" id="accordion-service">
+                    <div
+                      class="service-accordion_item scrolling-effect effectBottom"
+                      role="presentation"
+                    >
+                      <div
+                        class="accordion-action"
+                        data-bs-target="#feature-1"
+                        role="button"
+                        data-bs-toggle="collapse"
+                        aria-controls="feature-1"
+                        aria-expanded="true"
+                      >
+                        <h4 class="text letter-space--2 text-black-72">
+                          Website Builder with Industry Templates
+                        </h4>
+                        <div class="ic-wrap">
+                          <span class="ic-accordion-custom"></span>
+                        </div>
+                      </div>
+                      <div
+                        id="feature-1"
+                        class="collapse show"
+                        data-bs-parent="#accordion-service"
+                      >
+                        <div class="accordion-content">
+                          <div class="tf-grid-layout sm-col-2">
+                            <div class="service-image">
+                              <div class="wrap_image">
+                                <img
+                                  width="340"
+                                  height="206"
+                                  src="../../assets/images/section/template.png"
+                                  alt="Website Templates"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                          <div class="service-tag">
+                            <a
+                              href="#"
+                              class="tag-item text-body-3 fw-medium text-black-72 link"
+                            >
+                              Industry Templates
+                            </a>
+                            <a
+                              href="#"
+                              class="tag-item text-body-3 fw-medium text-black-72 link"
+                            >
+                              No-Code Editor
+                            </a>
+                            <a
+                              href="#"
+                              class="tag-item text-body-3 fw-medium text-black-72 link"
+                            >
+                              Mobile Responsive
+                            </a>
+                          </div>
+                          <p class="service-desc text-black-56">
+                            Professional, customizable templates for
+                            barbershops, salons, gyms, spas, and other service
+                            businesses. Drag-and-drop editor with no coding
+                            required, fully responsive design, and built-in SEO
+                            optimization.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="br-line scrolling-effect effectBottom"></div>
+                    <div
+                      class="service-accordion_item scrolling-effect effectBottom"
+                      role="presentation"
+                    >
+                      <div
+                        class="accordion-action collapsed"
+                        data-bs-target="#feature-2"
+                        role="button"
+                        data-bs-toggle="collapse"
+                        aria-controls="feature-2"
+                        aria-expanded="true"
+                      >
+                        <h4 class="text letter-space--2 text-black-72">
+                          Smart Booking & Scheduling System
+                        </h4>
+                        <div class="ic-wrap">
+                          <span class="ic-accordion-custom"></span>
+                        </div>
+                      </div>
+                      <div
+                        id="feature-2"
+                        class="collapse"
+                        data-bs-parent="#accordion-service"
+                      >
+                        <div class="accordion-content">
+                          <div class="tf-grid-layout sm-col-2">
+                            <div class="service-image">
+                              <div class="wrap_image">
+                                <img
+                                  width="340"
+                                  height="206"
+                                  src="../../assets/images/section/book.png"
+                                  alt="Calendar Management"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                          <div class="service-tag">
+                            <a
+                              href="#"
+                              class="tag-item text-body-3 fw-medium text-black-72 link"
+                            >
+                              Calendar Integration
+                            </a>
+                            <a
+                              href="#"
+                              class="tag-item text-body-3 fw-medium text-black-72 link"
+                            >
+                              Staff Management
+                            </a>
+                            <a
+                              href="#"
+                              class="tag-item text-body-3 fw-medium text-black-72 link"
+                            >
+                              Automated Reminders
+                            </a>
+                          </div>
+                          <p class="service-desc text-black-56">
+                            Intuitive booking system with real-time calendar
+                            integration, staff scheduling, resource allocation,
+                            and automated email/SMS reminders. Customers can
+                            book appointments 24/7 with instant availability
+                            checking.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="br-line scrolling-effect effectBottom"></div>
+                    <div
+                      class="service-accordion_item scrolling-effect effectBottom"
+                      role="presentation"
+                    >
+                      <div
+                        class="accordion-action collapsed"
+                        data-bs-target="#feature-3"
+                        role="button"
+                        data-bs-toggle="collapse"
+                        aria-controls="feature-3"
+                        aria-expanded="true"
+                      >
+                        <h4 class="text letter-space--2 text-black-72">
+                          Integrated Payment Processing
+                        </h4>
+                        <div class="ic-wrap">
+                          <span class="ic-accordion-custom"></span>
+                        </div>
+                      </div>
+                      <div
+                        id="feature-3"
+                        class="collapse"
+                        data-bs-parent="#accordion-service"
+                      >
+                        <div class="accordion-content">
+                          <div class="tf-grid-layout sm-col-2">
+                            <div class="service-image">
+                              <div class="wrap_image">
+                                <img
+                                  width="340"
+                                  height="206"
+                                  src="../../assets/images/section/pay.png"
+                                  alt="Payment Dashboard"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                          <div class="service-tag">
+                            <a
+                              href="#"
+                              class="tag-item text-body-3 fw-medium text-black-72 link"
+                            >
+                              Multi-Gateway Support
+                            </a>
+                            <a
+                              href="#"
+                              class="tag-item text-body-3 fw-medium text-black-72 link"
+                            >
+                              Secure Transactions
+                            </a>
+                            <a
+                              href="#"
+                              class="tag-item text-body-3 fw-medium text-black-72 link"
+                            >
+                              Automated Invoicing
+                            </a>
+                          </div>
+                          <p class="service-desc text-black-56">
+                            Built-in payment processing with support for
+                            multiple payment gateways, secure transaction
+                            handling, automated invoicing, and comprehensive
+                            financial reporting. PCI-DSS compliant with
+                            end-to-end encryption.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="br-line scrolling-effect effectBottom"></div>
+                    <div
+                      class="service-accordion_item scrolling-effect effectBottom"
+                      role="presentation"
+                    >
+                      <div
+                        class="accordion-action collapsed"
+                        data-bs-target="#feature-4"
+                        role="button"
+                        data-bs-toggle="collapse"
+                        aria-controls="feature-4"
+                        aria-expanded="true"
+                      >
+                        <h4 class="text letter-space--2 text-black-72">
+                          Business Analytics Dashboard
+                        </h4>
+                        <div class="ic-wrap">
+                          <span class="ic-accordion-custom"></span>
+                        </div>
+                      </div>
+                      <div
+                        id="feature-4"
+                        class="collapse"
+                        data-bs-parent="#accordion-service"
+                      >
+                        <div class="accordion-content">
+                          <div class="tf-grid-layout sm-col-2">
+                            <div class="service-image">
+                              <div class="wrap_image">
+                                <img
+                                  width="340"
+                                  height="206"
+                                  src="../../assets/images/section/dimp-dashboard.png"
+                                  alt="Analytics Dashboard"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                          <div class="service-tag">
+                            <a
+                              href="#"
+                              class="tag-item text-body-3 fw-medium text-black-72 link"
+                            >
+                              Real-time Metrics
+                            </a>
+                            <a
+                              href="#"
+                              class="tag-item text-body-3 fw-medium text-black-72 link"
+                            >
+                              Revenue Tracking
+                            </a>
+                            <a
+                              href="#"
+                              class="tag-item text-body-3 fw-medium text-black-72 link"
+                            >
+                              Customer Insights
+                            </a>
+                          </div>
+                          <p class="service-desc text-black-56">
+                            Comprehensive dashboard providing real-time business
+                            insights, revenue tracking, customer analytics, and
+                            performance metrics. Customizable widgets and
+                            reports for data-driven decision making.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- /Core Features Section -->
+
+                <!-- Tech Stack Section -->
+                <div id="tech-stack" class="section-tech-stack flat-spacing">
+                  <div class="sect-tag text-caption fw-medium">
+                    <i class="icon icon-tech-stack"></i>
+                    Technology Stack
+                  </div>
+                  <h4
+                    class="s-title letter-space--2 text-black-72 split-text effect-blur-fade"
+                  >
+                    Built with Modern, Scalable Technologies
+                  </h4>
+
+                  <ul class="award-list">
+                    <!-- React & TypeScript -->
+                    <li class="award-item hover-cursor-img">
+                      <div class="left">
+                        <h6 class="award_name letter-space--2 text-black-72">
+                          React & TypeScript
+                        </h6>
+                        <p class="award_desc text-black-56">
+                          Frontend Framework
+                        </p>
+                      </div>
+                      <img
+                        class="image-switch"
+                        width="50"
+                        height="50"
+                        src="../../assets/icon/react-2.svg"
+                        alt="React"
+                      />
+                    </li>
+
+                    <!-- Node.js & Express -->
+                    <li class="award-item hover-cursor-img">
+                      <div class="left">
+                        <h6 class="award_name letter-space--2 text-black-72">
+                          Node.js & Express
+                        </h6>
+                        <p class="award_desc text-black-56">Backend API</p>
+                      </div>
+                      <img
+                        class="image-switch"
+                        width="50"
+                        height="50"
+                        src="../../assets/icon/nodejs-icon.svg"
+                        alt="Node.js"
+                      />
+                    </li>
+
+                    <!-- MySQL & MongoDB -->
+                    <li class="award-item hover-cursor-img">
+                      <div class="left">
+                        <h6 class="award_name letter-space--2 text-black-72">
+                          MySQL & MongoDB
+                        </h6>
+                        <p class="award_desc text-black-56">Databases</p>
+                      </div>
+                      <img
+                        class="image-switch"
+                        width="50"
+                        height="50"
+                        src="../../assets/icon/mysql-2.svg"
+                        alt="Databases"
+                      />
+                    </li>
+                    <li class="award-item hover-cursor-img">
+                      <div class="left">
+                        <h6 class="award_name letter-space--2 text-black-72">
+                          Microsoft Azure
+                        </h6>
+                        <p class="award_desc text-black-56">
+                          Clloud Infrastructure
+                        </p>
+                      </div>
+                      <img
+                        class="image-switch"
+                        width="50"
+                        height="50"
+                        src="../../assets/icon/azure-2.svg"
+                        alt="Databases"
+                      />
+                    </li>
+                  </ul>
+                </div>
+                <!-- /Tech Stack Section -->
+                <!-- Business Value & Achievements -->
+                <div
+                  id="achievements"
+                  class="section-about type-2 flat-spacing"
+                >
+                  <div class="sect-tag text-caption fw-medium">
+                    <i class="icon icon-award"></i>
+                    Business Impact & Achievements
+                  </div>
+                  <h4
+                    class="s-title letter-space--2 text-black-72 split-text effect-blur-fade"
+                  >
+                    Driving Tangible Business Results
+                  </h4>
+
+                  <div class="box-counter effectFade fadeUp no-div">
+                    <div class="wg-counter">
+                      <p class="counter h1 d-flex font-2 letter-space--2">
+                        <span class="number" data-speed="1000" data-to="62"
+                          >0</span
+                        >
+                        %
+                      </p>
+                      <p class="text text-black-56 text-body-3">
+                        Increased Customer Acquisition
+                      </p>
+                    </div>
+                    <div class="wg-counter">
+                      <p class="counter h1 d-flex font-2 letter-space--2">
+                        <span class="number" data-speed="1000" data-to="45"
+                          >0</span
+                        >
+                        %
+                      </p>
+                      <p class="text text-black-56 text-body-3">
+                        Reduced Admin Work
+                      </p>
+                    </div>
+                    <div class="wg-counter">
+                      <p class="counter h1 d-flex font-2 letter-space--2">
+                        <span class="number" data-speed="1000" data-to="300"
+                          >0</span
+                        >
+                        +
+                      </p>
+                      <p class="text text-black-56 text-body-3">
+                        Active Businesses
+                      </p>
+                    </div>
+                  </div>
+
+                  <ul class="award-list">
+                    <li class="award-item hover-cursor-img">
+                      <div class="left">
+                        <h6 class="award_name letter-space--2 text-black-72">
+                          35% Reduction in No-Show Rates
+                        </h6>
+                        <p class="award_desc text-black-56">
+                          Through automated reminders
+                        </p>
+                      </div>
+                      <h6 class="award_year text-black-72">✓</h6>
+                      <div class="award_img hover-image">
+                        <img
+                          loading="lazy"
+                          width="158"
+                          height="224"
+                          src="../../assets/images/section/award-1.jpg"
+                          alt="Reduced No-Shows"
+                        />
+                      </div>
+                    </li>
+                    <li class="award-item hover-cursor-img">
+                      <div class="left">
+                        <h6 class="award_name letter-space--2 text-black-72">
+                          28% Increase in Transaction Value
+                        </h6>
+                        <p class="award_desc text-black-56">
+                          With upsell features
+                        </p>
+                      </div>
+                      <h6 class="award_year text-black-72">✓</h6>
+                      <div class="award_img hover-image">
+                        <img
+                          loading="lazy"
+                          width="158"
+                          height="224"
+                          src="../../assets/images/section/award-2.jpg"
+                          alt="Increased Revenue"
+                        />
+                      </div>
+                    </li>
+                    <li class="award-item hover-cursor-img">
+                      <div class="left">
+                        <h6 class="award_name letter-space--2 text-black-72">
+                          24/7 Booking Capability
+                        </h6>
+                        <p class="award_desc text-black-56">
+                          Increased after-hours revenue by 40%
+                        </p>
+                      </div>
+                      <h6 class="award_year text-black-72">✓</h6>
+                      <div class="award_img hover-image">
+                        <img
+                          loading="lazy"
+                          width="158"
+                          height="224"
+                          src="../../assets/images/section/award-3.jpg"
+                          alt="24/7 Booking"
+                        />
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <!-- /Business Value & Achievements -->
+
+                <!-- Contact -->
+                <div id="contact" class="section-contact flat-spacing">
+                  <div
+                    class="sect-tag text-caption fw-medium effectFade fadeUp no-div"
+                  >
+                    <i class="icon icon-send"></i>
+                    Contact
+                  </div>
+                  <h4
+                    class="s-title letter-space--2 split-text effect-blur-fade"
+                  >
+                    If you have an open position, a project inquiry
+                    <br class="d-none d-lg-block" />
+                    or technical collaboration opportunity,
+                    <br class="d-none d-lg-block" />
+                    Kindly reach out - Coffee's on me.
+                  </h4>
+
+                  <div class="social-horizontal">
+                    <h6 class="social-label text-body-1 text-black-56 mr-4">
+                      You can reach out faster using:
+                    </h6>
+
+                    <ul class="social-list-horizontal">
+                      <li class="social-item-horizontal">
+                        <a
+                          href="https://wa.me/2348109174125"
+                          class="social-link"
+                          aria-label="WhatsApp"
+                        >
+                          <img
+                            class="icon"
+                            width="20"
+                            height="20"
+                            viewBox="0 0 20 20"
+                            src="../../assets/icon/whatsapp-glyph-black.svg"
+                            alt="WhatsApp"
+                          />
+                        </a>
+                      </li>
+                      <li class="social-item-horizontal">
+                        <a
+                          href="tel:+2348109174125"
+                          class="social-link"
+                          aria-label="LinkedIn"
+                        >
+                          <img
+                            class="icon"
+                            width="20"
+                            height="20"
+                            viewBox="0 0 20 20"
+                            src="../../assets/icon/phone-calling-svgrepo-com.svg"
+                            alt="WhatsApp"
+                          />
+                        </a>
+                      </li>
+                      <li class="social-item-horizontal">
+                        <a
+                          href="mailto:message.abdulazeez@gmail.com"
+                          class="social-link"
+                          aria-label="Mail"
+                        >
+                          <img
+                            class="icon"
+                            width="20"
+                            height="20"
+                            viewBox="0 0 20 20"
+                            src="../../assets/icon/mail-alt-3-svgrepo-com.svg"
+                            alt="Mail"
+                          />
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <br />
+                  <br />
+                  <form
+                    class="form-contact"
+                    id="contactform"
+                    action="../../contact-form.php"
+                    method="post"
+                    novalidate="novalidate"
+                  >
+                    <div class="form-content effectFade fadeUp no-div">
+                      <fieldset class="field-ip">
+                        <input
+                          type="text"
+                          name="name"
+                          id="name"
+                          placeholder="Your Name *"
+                          required
+                        />
+                      </fieldset>
+                      <fieldset class="field-ip">
+                        <input
+                          type="email"
+                          name="email"
+                          id="email"
+                          placeholder="Email *"
+                          required
+                        />
+                      </fieldset>
+                      <fieldset class="field-ip">
+                        <input
+                          type="text"
+                          name="company"
+                          id="company"
+                          placeholder="Company / Organization (if any)"
+                        />
+                      </fieldset>
+                      <fieldset class="field-ip">
+                        <input
+                          type="text"
+                          name="message"
+                          id="message"
+                          placeholder="How can I render my expertise to your company or contribute to your project?"
+                        />
+                      </fieldset>
+                    </div>
+                    <div class="form-action effectFade fadeUp no-div">
+                      <div class="send-wrap">
+                        <button
+                          type="submit"
+                          class="tf-btn animate-btn animate-dark"
+                        >
+                          <span class="text-body-3"> Send a Message </span>
+                        </button>
+                      </div>
+                      <p class="text-body-4 text-black-40 mt-3">
+                        <i>I'll get back to you within 2 hours.</i>
+                      </p>
+                    </div>
+                  </form>
+                </div>
+                <!-- /Contact -->
+
+                <!-- Footer -->
+                <div id="footer" class="tf-footer flat-spacing">
+                  <div class="block-quote effectFade fadeUp no-div">
+                    <h5 class="quote-text font-3 fw-normal text-black-72">
+                      <span class="text-black-56">"</span>
+                      The function of good software is to make the complex
+                      appear to be simple.
+                      <span class="text-black-56">"</span>
+                    </h5>
+                    <p class="quote-author font-3 text-black-56 h6 text-end">
+                      Abdul-Azeez Adeleye
+                    </p>
+                  </div>
+                  <div class="br-line"></div>
+                  <div class="foot-inner">
+                    <div class="azeezadeleye effectFade fadeUp no-div">
+                      <a href="../../index.html#home">
+                        <svg
+                          viewBox="0 0 354 160"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M0 157.225V6.93641H19.4068V157.225H0Z"
+                            fill="black"
+                            fill-opacity="0.72"
+                          />
+                          <path
+                            d="M85.0002 160C57.2763 160 36.9454 144.277 35.0971 123.006L55.428 117.457C56.3521 131.329 69.29 142.428 85.9243 142.428C98.8622 142.428 109.028 135.491 109.028 125.78C109.028 99.8844 40.6419 110.058 40.6419 71.2139C40.6419 52.2543 57.2763 38.8439 81.3037 38.8439C105.331 38.8439 123.121 52.0231 125.662 70.289L106.255 75.3757C105.793 64.0462 95.6277 55.9538 81.7658 55.9538C69.29 55.9538 60.5107 62.4277 60.5107 71.2139C60.5107 96.185 129.359 86.0116 129.359 125.78C129.359 145.665 110.876 160 85.0002 160Z"
+                            fill="black"
+                            fill-opacity="0.72"
+                          />
+                          <path
+                            d="M175.578 160C152.705 160 137.688 146.821 137.688 126.705C137.688 110.751 150.395 97.8035 170.033 94.3353L205.612 87.8613C209.54 87.1676 212.543 84.1618 212.543 80.4624C212.543 65.896 202.609 55.4913 188.516 55.4913C173.729 55.4913 162.64 66.1272 161.716 82.3121L141.385 80C143.695 55.9538 162.871 38.8439 187.591 38.8439C213.005 38.8439 231.026 56.6474 231.026 81.3873V134.104L231.488 157.225H216.702L213.467 139.653C206.305 152.139 192.443 160 175.578 160ZM158.019 125.78C158.019 135.491 166.336 141.965 179.274 141.965C198.681 141.965 212.543 128.555 212.543 110.058V101.965C210.464 102.428 207.922 103.121 205.15 103.584L174.654 109.133C164.488 110.983 158.019 117.457 158.019 125.78Z"
+                            fill="black"
+                            fill-opacity="0.72"
+                          />
+                          <path
+                            d="M330.897 157.225L292.083 104.277L271.752 126.243V157.225H253.27V0H271.752V101.04L324.428 41.6185H349.379L304.559 90.6358L354 157.225H330.897Z"
+                            fill="black"
+                            fill-opacity="0.72"
+                          />
+                        </svg>
+                      </a>
+                    </div>
+                    <a
+                      href="../../index.html#home"
+                      class="f-logo effectFade fadeZoom"
+                    >
+                      <div class="logo">
+                        <img
+                          class="image-switch"
+                          data-light="../../assets/images/logo/logo.png"
+                          data-dark="../../assets/images/logo/logo-2.png"
+                          loading="lazy"
+                          width="32"
+                          height="32"
+                          src="../../assets/images/logo/logo.png"
+                          alt="Abdul-Azeez Logo"
+                        />
+                      </div>
+                    </a>
+                  </div>
+                  <div class="foot-bottom">
+                    <p
+                      class="text-nocopy text-black-56 effectFade fadeUp no-div"
+                    >
+                      All rights reserved <br />
+                      © <span id="currentYear"></span> Abdul-Azeez Adeleye
+                    </p>
+
+                    <script>
+                      // Simple year update
+                      document.getElementById("currentYear").textContent =
+                        new Date().getFullYear();
+                    </script>
+                    <div class="azeezadeleye effectFade fadeUp no-div">
+                      <a href="../../index.html#home">
+                        <svg
+                          viewBox="0 0 428 162"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M267.304 41.4092C233.789 41.4092 209.924 66.4273 209.924 101.454C209.924 136.481 233.789 161.5 267.304 161.5C300.819 161.5 324.683 136.481 324.683 101.454C324.682 66.4274 300.819 41.4094 267.304 41.4092ZM57.8799 41.4092C24.3648 41.4092 0.500204 66.4273 0.5 101.454C0.5 136.481 24.3647 161.5 57.8799 161.5C91.395 161.5 115.259 136.481 115.259 101.454C115.259 66.4274 91.3948 41.4093 57.8799 41.4092ZM326.392 10.0459V29.2275H407.389V76.8633H334.582V96.0459H407.389V158.772H427.5V10.0459H326.392ZM174.328 3.22754V158.772H193.529V3.22754H174.328ZM131.553 44.1367V158.772H150.754V44.1367H131.553ZM267.304 60.1367C289.049 60.1369 304.571 77.3623 304.571 101.454C304.571 125.313 289.054 142.318 267.304 142.318C245.553 142.318 230.035 125.313 230.035 101.454C230.035 77.3622 245.558 60.1367 267.304 60.1367ZM57.8799 60.1367C79.6252 60.1368 95.1473 77.3623 95.1475 101.454C95.1475 125.313 79.6305 142.318 57.8799 142.318C36.1291 142.318 20.6113 125.313 20.6113 101.454C20.6115 77.3622 36.1344 60.1367 57.8799 60.1367ZM141.153 0.5C132.671 0.5 126.547 6.87608 126.547 15.5459C126.547 24.2155 132.671 30.5908 141.153 30.5908C149.635 30.5907 155.76 24.2154 155.76 15.5459C155.76 6.87613 149.635 0.500076 141.153 0.5Z"
+                            stroke="black"
+                            stroke-opacity="0.56"
+                          />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- /Footer -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Javascript -->
+
+    <script>
+      // Handle form submission status
+      document.addEventListener("DOMContentLoaded", function () {
+        const urlParams = new URLSearchParams(window.location.search);
+        const status = urlParams.get("status");
+        const form = document.getElementById("contactform");
+
+        if (form) {
+          if (status === "success") {
+            // Show success message
+            const successMessage = document.createElement("div");
+            successMessage.className = "alert alert-success text-body-3 mb-4";
+            successMessage.innerHTML = `
+                <strong>✓ Message sent successfully!</strong><br>
+                I've received your message and will get back to you within 2 hours.
+                Check your email for the auto-reply confirmation.
+            `;
+            form.parentNode.insertBefore(successMessage, form);
+
+            // Optional: Reset form
+            form.reset();
+
+            // Remove success parameter from URL
+            history.replaceState({}, document.title, window.location.pathname);
+          } else if (
+            status === "error" ||
+            status === "validation_error" ||
+            status === "invalid_request"
+          ) {
+            // Show error message
+            const errorMessage = document.createElement("div");
+            errorMessage.className = "alert alert-error text-body-3 mb-4";
+            errorMessage.innerHTML = `
+                <strong>⚠️ Something went wrong!</strong><br>
+                Please try again or contact me directly at message.abdulazeez@gmail.com
+            `;
+            form.parentNode.insertBefore(errorMessage, form);
+
+            // Remove error parameter from URL
+            history.replaceState({}, document.title, window.location.pathname);
+          }
+
+          // Optional: Form submission with AJAX for better UX
+          form.addEventListener("submit", function (e) {
+            // You could add AJAX submission here
+            // But keep the current action as fallback
+          });
+        }
+      });
+    </script>
+
+    <!-- Optional: Add some CSS for alerts -->
+    <style>
+      .alert {
+        padding: 1rem;
+        border-radius: 8px;
+        margin-bottom: 1.5rem;
+        border: 1px solid transparent;
+      }
+      .alert-success {
+        background-color: #d1e7dd;
+        color: #0f5132;
+        border-color: #badbcc;
+      }
+      .alert-error {
+        background-color: #f8d7da;
+        color: #842029;
+        border-color: #f5c2c7;
+      }
+    </style>
+    <script src="../../assets/js/jquery.min.js"></script>
+    <script src="../../assets/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/jquery.nice-select.min.js"></script>
+    <script src="../../assets/js/jquery-validate.js"></script>
+    <script src="../../assets/js/swiper-bundle.min.js"></script>
+    <script src="../../assets/js/carousel.js"></script>
+    <script src="../../assets/js/infinityslide.js"></script>
+    <script src="../../assets/js/ScrollSmooth.js"></script>
+    <script src="../../assets/js/gsap.min.js"></script>
+    <script src="../../assets/js/SplitText.min.js"></script>
+    <script src="../../assets/js/ScrollTrigger.min.js"></script>
+    <script src="../../assets/js/ScrollToPlugin.min.js"></script>
+    <script src="../../assets/js/gsapAnimation.js"></script>
+    <script src="../../assets/js/countto.js"></script>
+    <script src="../../assets/js/animation-change-text.js"></script>
+    <script src="../../assets/js/main.js"></script>
+
+    <script>
+      // Update circular text for product page
+      document.addEventListener("DOMContentLoaded", function () {
+        const circularText = document.getElementById("circularText");
+        if (circularText) {
+          circularText.textContent =
+            "DIMPIFIED • ALL-IN-ONE PLATFORM • SERVICE BUSINESSES • WEBSITE BUILDER • BOOKING SYSTEM • PAYMENT PROCESSING •";
+        }
+
+        // Initialize select dropdown
+        $("select").niceSelect();
+      });
+    </script>
+  </body>
+</html>
